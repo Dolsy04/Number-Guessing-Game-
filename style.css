@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #1c1c3c;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    background-color: #333e57;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+/* Heading Styling */
+h1 {
+    color: #f4b400;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Input Styling */
+input[type="number"] {
+    padding: 10px;
+    width: 90%;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #42a5f5;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#check{
+    background-color: #FFB703;
+    color: #1D3557;
+}
+button:nth-of-type(2) {
+    background-color: #DDA15E;
+    color: #1D3557;
+}
+button:nth-of-type(3) {
+    background-color: #F1FAEE;
+    color: #1D3557;
+}
+button:nth-of-type(4) {
+    background-color: #A8DADC;
+    color: #1D3557;
+}
+
+button:nth-of-type(5) {
+    background-color: #E63946;
+    color: #F1FAEE;
+}
+button:nth-of-type(6) {
+    background-color: #457B9D;
+    color: #F1FAEE;
+    width: 100%;
+    margin: 8px auto 0;
+}
+
+/* Message Styling */
+#result {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    background: #293249d0;
+    padding: 10px 5px;
+}
